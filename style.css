@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    background: #0013de;
+    max-width: 50rem;
+    color: white;
+    margin: auto;
+    line-height: 2;
+    box-shadow: 10px 5px 5px rgb(180, 180, 221);
+    border-radius: 2rem;
+}
+[data-testid="slackDisplayImage"] {
+    width: 15rem;
+    background-size: cover;
+    border-radius: 2rem;
+}
+.text{
+    margin-left: 2rem;
+}
+.text p{
+    font-size: large;
+    font-weight: bold;
+}
+[data-testid="githubUrl"] {
+    background-color: white;
+    text-decoration: none;
+    color: #0013de;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
