@@ -40,3 +40,33 @@ main{
     padding: 0.5rem;
     border-radius: 10px;
 }
+
+
+
+@media (max-width: 767px) {
+    main {
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    [data-testid="slackDisplayImage"] {
+        max-width: 100%;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text p {
+        font-size: medium;
+    }
+
+    [data-testid="githubUrl"] {
+        font-size: medium;
+        padding: 0.5rem 1rem;
+    }
+}
