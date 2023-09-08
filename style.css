@@ -56,11 +56,6 @@ main{
     [data-testid="slackDisplayImage"] {
         max-width: 100%;
     }
-
-    .text {
-        text-align: center;
-    }
-
     .text p {
         font-size: medium;
     }
